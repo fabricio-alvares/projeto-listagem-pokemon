@@ -7,8 +7,8 @@ botaoAlterarTema.addEventListener("click", () => {
     body.classList.toggle("modo-escuro");
     
     if(body.classList.contains("modo-escuro")){        
-        imagemBotaoTrocaTema.setAttribute("src", "./src/imagens/sun.png");        
-    } else{
         imagemBotaoTrocaTema.setAttribute("src", "./src/imagens/moon.png");
+    } else{        
+        imagemBotaoTrocaTema.setAttribute("src", "./src/imagens/sun.png");
     }
 })
